@@ -27,6 +27,12 @@ st.markdown(f"""
     </style>
     """, unsafe_allow_html=True)
 
+# Set the title color explicitly
+st.markdown(
+    "<h1 style='color: #432B2B; text-align: center;'>Mental Health Support Agent</h1>",
+    unsafe_allow_html=True
+)
+
 # Initialize conversation history
 st.session_state.setdefault('conversation_history', [])
 
@@ -52,9 +58,6 @@ def generate_meditation_guide():
     prompt = "Provide a 5-minute guided meditation script to help someone relax and reduce stress."    
     response = ollama.chat(model="llama3:8b", messages=[{"role": "user", "content": prompt}])
     return response['message']['content']
-
-# Streamlit app
-st.title("Mental Health Support Agent")
 
 # Display conversation history
 for msg in st.session_state['conversation_history']:
