@@ -1,7 +1,7 @@
 import streamlit as st
 import ollama
 
-# Initialize conversation history
+# Initialize conversation history 
 st.session_state.setdefault('conversation_history', [])
 
 def generate_response(user_input):
