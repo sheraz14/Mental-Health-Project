@@ -1,9 +1,6 @@
 # Mental Health Support Agent 🤖💬
 
 Welcome to the **Mental Health Support Agent**, a conversational AI chatbot designed to provide emotional support, positive affirmations, and guided meditations to help you manage stress, anxiety, and overwhelm. Built with **Streamlit** and powered by **Ollama**'s `llama3:8b` model, this chatbot is here to lend a listening ear and offer helpful resources whenever you need them.
-
-🌐 **Access the Chatbot**: [Mental Health Support Agent](https://mental-health-agent.streamlit.app/)
-
 ---
 
 ## Features ✨
@@ -49,12 +46,6 @@ Welcome to the **Mental Health Support Agent**, a conversational AI chatbot desi
 
 ---
 
-## Access the Chatbot 🌐
-
-You can access the Mental Health Support Agent here:  
-👉 [Mental Health Support Agent](https://mental-health-agent.streamlit.app/)
-
----
 
 ## How to Run Locally 🖥️
 
